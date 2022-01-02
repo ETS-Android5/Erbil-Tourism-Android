@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutFragment"
+    android:padding="7dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="#33B6F1"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="330dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/saadland" />
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/amenland" />
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/ziadassad2" />
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/umerland" />
+
+                    <ImageView
+                        android:layout_width="168dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/yunisland" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="300dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutUS"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="#33B6F1"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/abouterbil"
+                android:layout_width="match_parent"
+                android:layout_height="330dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="810dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/erbilland" />
+
+                </LinearLayout>
+                <TextView
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="300dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutERBIL"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#33B6F1"
+                android:id="@+id/erbilvideo"
+                android:layout_width="match_parent"
+                android:layout_height="330dp">
+
+                <ImageView
+                    android:layout_width="810dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/castleland"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@drawable/ic_play_circle_outline_black_24dp" />
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="300dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutvideo"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

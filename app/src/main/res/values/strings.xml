@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="About">about</string>
+    <string name="English">English</string>
+    <string name="Kurdish">Kurdish</string>
+    <string name="Arabic">Arabic</string>
+    <string name="app_name">Erbil Tourisem</string>
+    <string name="listhotel">List Hotel</string>
+    <string name="listresturant">List Resturant</string>
+    <string name="listShop">List Shop</string>
+    <string name="listTourisem">List Tourisem</string>
+    <string name="listPlace">Places</string>
+    <string name="welcom">Welcome to Erbil-kurdistan</string>
+    <string name="restaurants">restaurants</string>
+    <string name="Hotel">Hotel</string>
+    <string name="placetourist">place tourist</string>
+    <string name="shop">shoping</string>
+    <string name="AddIteam">AddItem</string>
+    <string name="addHotel">AddHotel</string>
+    <string name="addResturant">AddResturant</string>
+    <string name="addTourism">AddTourism</string>
+    <string name="addShop">AddShop</string>
+    <string name="addimage">Image</string>
+    <string name="address">address</string>
+    <string name="Nameofolace">Name of place</string>
+    <string name="name">Name</string>
+    <string name="prifile">Profile</string>
+
+    <string name="aboutUS">know about us</string>
+    <string name="aboutERBIL">know about erbil</string>
+    <string name="aboutvideo">know about erbil with video</string>
+    <string name="btnerbil">About Erbil</string>
+    <string name="btnus">About US</string>
+    <string name="btnvideo">video</string>
+
+    <string name="changepass">change  Password</string>
+    <string name="lang">Select Language</string>
+    <string name="apply">Apply</string>
+    <string name="oldpass">old Password</string>
+    <string name="newPass">New Password</string>
+    <string name="save">Save</string>
+
+    <string name="userlength">the length username less than 4 character</string>
+    <string name="passlength">the length password less than 6 character</string>
+    <string name="empty">one filed empty</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="userName">User Name</string>
+    <string name="email">Email</string>
+    <string name="passowrd">Password</string>
+    <string name="Cpassowrd">Confirm Password</string>
+    <string name="Accounterror">this account not available</string>
+    <string name="passerror">incorrect password</string>
+
+    <string name="location">Location</string>
+    <string name="added">Added successfully!</string>
+    <string name="notadded">Added not successfully!</string>
+    <string name="update">Update</string>
+    <string name="exist">this account have exist</string>
+
+    <string name="openFaceBook">OpenFaceBook</string>
+    <string name="Delete">Delete</string>
+    <string name="Choose">Choose an action</string>
+    <string name="updateSec">Update successfully!!!</string>
+    <string name="Warning">Warning!!</string>
+    <string name="deletePlace">Are you sure you want to this delete?</string>
+    <string name="deleteSec">Delete successfully!!!</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="map">Map</string>
+
+    <string name="user">You are user</string>
+
+    <!-- Liste Resturant-->
+    <string name="salehia">Salehia</string>
+    <string name="ABC">ABC</string>
+    <string name="janna">Janna</string>
+    <string name="flla">Fulla</string>
+    <string name="ayam">AyamAlkhawali</string>
+    <string name="PregoRestaurant">Prego Restaurant</string>
+    <string name="rabwah">Rabwah</string>
+    <string name="tosty">Tosty</string>
+    <string name="hiland">HiLand</string>
+    <string name="kababyasin">Kabab Yasin</string>
+    <string name="iceland">IceLand</string>
+
+    <string-array name="addresResturant">
+        <item>Erbil-Road bahrka</item>
+        <item>Erbil-street ronaky</item>
+        <item>Erbil-Road 100m</item>
+        <item>Erbil-Road shorsh</item>
+        <item>Erbil-Road 100m</item>
+        <item>Erbil-couple Road hankawa</item>
+        <item>Erbil-Road 100m</item>
+        <item>Erbil-Road 100m</item>
+        <item>Erbil-kasnazan</item>
+        <item>Erbil-Road 100m-near bahrka</item>
+        <item>Erbil-Road 100m</item>
+    </string-array>
+
+    <!--List Hotel-->
+    <string-array name="arrayHotel">
+        <item>Cristal</item>
+        <item>Maryana</item>
+        <item>Rotana</item>
+        <item>Divan</item>
+        <item>GrandPlace</item>
+        <item>Jouhayna</item>
+        <item>Laroch</item>
+        <item>Plaza</item>
+    </string-array>
+
+    <string-array name="addresHotel">
+        <item>Erbil-Road 100m</item>
+        <item>Erbil-Gulan Street-Behind Sami Abdul-Rahman Park</item>
+        <item>Erbil-Gulan street</item>
+        <item>Erbil-Gulan street</item>
+        <item>Erbil-Ankawa Main Entrance</item>
+        <item>Erbil-qaze muhammed street</item>
+        <item>Erbil-Ankawa Main Entrance-near korek company</item>
+        <item>Erbil-Road 60m- near mosqle jalel xeat</item>
+    </string-array>
+
+    <string-array name="arrayShop">
+        <item>Royal Mall</item>
+        <item>Mega Mall</item>
+        <item>Family Mall</item>
+        <item>Tablo Mall</item>
+        <item>Majidi Mall</item>
+    </string-array>
+
+    <string-array name="AddressShop">
+        <item>Erbil /Road 60m / opposite mousqle jalelXayat</item>
+        <item>Erbil / Road 60m</item>
+        <item>Erbil/ Road 100m</item>
+        <item>Erbil / Road karkuk / near stadium faranso harere</item>
+        <item>Erbil/ Road kasnazan</item>
+    </string-array>
+
+    <string-array name="tourism">
+        <item>FamilyFun</item>
+        <item>Castle</item>
+        <item>MajidiLand</item>
+        <item>Mnara</item>
+        <item>Mnara Park</item>
+        <item>Shanadar Park</item>
+        <item>SamiAbdullRahman park</item>
+    </string-array>
+
+    <string-array name="addresstourism">
+        <item>Erbil- 100 Street</item>
+        <item>Center of Erbil</item>
+        <item>Ebil - kasnazan Road</item>
+        <item>Erbil-barzaniramr street</item>
+        <item>Erbil-barzaniramr street</item>
+        <item>Erbil - shanadar Street</item>
+        <item>Erbil - 60m Road</item>
+    </string-array>
+
+    <string name="about">
+        We are students at Salahuddin University in the College of Engineering, Department of software and Informatics.
+        We have created this program for tourists inside or outside Kurdistan
+        The program supports three languages
+And includes hotels, restaurants, tourist attractions and shops in Kurdistan
+    </string>
+
+
+    <string name="ziad"> 1 - Ziad Assad</string>
+    <string name="saad"> 2 - Saad masud</string>
+    <string name="yunis"> 3 - yunis</string>
+    <string name="amen"> 4 - amen ziad</string>
+    <string name="umer"> 5 - umer shaqlawa</string>
+    <string name="students">Students</string>
+    <string name="contact">Contact us</string>
+
+    <string name="storyerbil">
+        History about Erbil
+    </string>
+
+    <string name="castlstory">
+        Erbil Fortress is a circular bridge with an area of 102190 square meters in the center of the city of Erbil,
+        Which has been thecenter of the city of Erbil since ancient times.415m higher than the sea level and as a result of 2m and 3cm higher than the surface level of the city of Erbil
+         and The ancientcastle was designated by UNESCO in 2000 as one of the worlds 100 most important That should be considered as a humanitarian culture
+    </string>
+
+    <string name="storymnara">
+        The Minaret Museum is one of the minarets, located in the Minaret Park
+        In the west of Hawler in the Kurdistan Region The tower is 3 meters high
+        This minaret dates from (1190-1232) AD. (930 - 589) by the Turkmen prince of Hawler (Museum Farah)
+        39 meters (118 feet) high. This minaret dates from (1190-1232)AD Built by Salahuddin, the minaret is located on an area of ​​eight acres.(Religion is not an Eid al-Adha)
+        In the Estonian area a high-rise box is built with a balcony between the building and the tower.
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

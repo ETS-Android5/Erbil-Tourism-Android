@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:background="?attr/backgroundcolor"
+    >
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:textColor="?attr/textcolor"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/setting"
+               android:textSize="40dp"
+               android:textAlignment="center"
+               android:layout_marginTop="30dp"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:layout_marginTop="40dp"
+               android:orientation="horizontal"
+               android:background="#ffffff"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Dark Mode"
+                   android:textColor="#000000"
+                   android:textSize="20dp" />
+
+               <Switch
+                   android:id="@+id/switchColor"
+                   android:layout_width="53dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="620dp"
+                   android:layout_marginRight="240dp" />
+           </LinearLayout>
+
+           <Button
+               android:background="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/changePass"
+               android:layout_marginTop="5dp"
+               android:text="@string/changepass"
+               />
+
+           <TextView
+               android:textAlignment="center"
+               android:textColor="#ff1000"
+               android:textSize="25dp"
+               android:layout_marginTop="60dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/lang"
+
+               />
+
+           <RadioGroup
+               android:layout_marginLeft="20dp"
+               android:id="@+id/group"
+               android:layout_width="202dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:padding="20dp">
+
+               <RadioButton
+                   android:buttonTint="?attr/textcolor"
+                   android:backgroundTint="?attr/textcolor"
+                   android:textColor="?attr/textcolor"
+                   android:id="@+id/kurdish"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Kurdish"
+                   android:textSize="20dp" />
+
+               <RadioButton
+                   android:buttonTint="?attr/textcolor"
+                   android:backgroundTint="?attr/textcolor"
+                   android:textColor="?attr/textcolor"
+                   android:id="@+id/english"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/English"
+                   android:textSize="20dp" />
+
+               <RadioButton
+                   android:buttonTint="?attr/textcolor"
+                   android:textColor="?attr/textcolor"
+                   android:id="@+id/arabic"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Arabic"
+                   android:textSize="20dp" />
+
+           </RadioGroup>
+
+           <Button
+               android:id="@+id/apply"
+               android:layout_width="82dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="350dp"
+               android:layout_marginTop="40dp"
+               android:layout_marginRight="350dp"
+               android:background="@drawable/btn_place"
+               android:text="@string/apply"
+               android:textColor="?attr/textcolor" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="30dp"
+               />
+
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>

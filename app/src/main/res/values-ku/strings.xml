@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home">ماڵەوە</string>
+    <string name="setting">ڕێکخستن</string>
+    <string name="About">دەربارە</string>
+    <string name="English">ئینگلیزی</string>
+    <string name="Kurdish">کوردی</string>
+    <string name="Arabic">عربى</string>
+    <string name="app_name">هەولێری گەشتیاری</string>
+    <string name="listhotel">لیستی ميوانخانە</string>
+    <string name="listresturant">لیستی جێتخانە</string>
+    <string name="listShop">لیستی مۆل</string>
+    <string name="listTourisem">لیستی شوێنیگەشتیاری</string>
+    <string name="listPlace">شوینەکان</string>
+    <string name="welcom">بەخێربێن بۆ هەولێر-کوردستان</string>
+    <string name="restaurants">جێشتخانە</string>
+    <string name="Hotel">ميوانخانە</string>
+    <string name="placetourist">شوینی گەشتیاری</string>
+    <string name="shop">بازاڕ</string>
+    <string name="AddIteam">زیادکردنی شوێن</string>
+    <string name="addHotel">زیادکردنی میوانخانە</string>
+    <string name="addResturant">زیادکردنی جێشتخانە</string>
+    <string name="addTourism">زیادکردنی شوێنی گەشتیاری</string>
+    <string name="addShop">زیادکردنی دووکان</string>
+    <string name="addimage">وینە</string>
+    <string name="prifile">زانیاری کەسی</string>
+
+    موقعك
+    <string name="Nameofolace">ناوی شوێن</string>
+    <string name="name">ناو</string>
+    <string name="address">ناونیشان</string>
+    <string name="update">نوێ کردنەوە</string>
+
+    <string name="aboutUS">زانین دەربارەی ئێمە</string>
+    <string name="aboutERBIL">زانین دەربارەی هەولێر</string>
+    <string name="aboutvideo">زانین دەربارەی هەولێر بە ڤیدێۆ</string>
+    <string name="btnerbil">دەربارەی هەولێر</string>
+    <string name="btnus">دەربارەی ئێمە</string>
+    <string name="btnvideo">ڤیدێۆ</string>
+
+    <string name="changepass">  گۆڕینی وشەی نهێنی  </string>
+    <string name="lang"> زمانیێک هەڵبژێرە </string>
+    <string name="apply"> جێ بەجێکردن </string>
+    <string name="oldpass"> وشەنهێنیە کۆنەکەت </string>
+    <string name="newPass"> وشەی نهێنی نوێ </string>
+    <string name="save">خەزنکردن</string>
+
+    <string name="userlength">درێژی ناوی بەکارهێنەرەکە کەمترە لە ٤ پیت</string>
+    <string name="passlength">درێژی وشەنهێنیەکە کەمترە لە ٦ پیت</string>
+    <string name="empty">شوێنیک بەتاڵە</string>
+    <string name="signup">تۆمارکردن</string>
+    <string name="logout">چوونەدەرەوە</string>
+    <string name="login">چوونەژوورەوە</string>
+    <string name="userName">ناوی بەکارهێنەر</string>
+    <string name="email">ئیمێل</string>
+    <string name="passowrd">وشەی نهێنی</string>
+    <string name="Cpassowrd">دووپاتکردنەوەی وشەینهێنی</string>
+    <string name="Accounterror">ئەم بەکارهێنەرە بەردەست نیە</string>
+    <string name="passerror">ئەم وشەنهێنیە هەڵەیە</string>
+
+    <string name="added">زیادکردنەکە سەرکەوتوبوو!</string>
+    <string name="notadded">زیادکردنەکە سەرکەوتونەبوو!</string>
+    <string name="exist">ئەم بەکارهێنەرە بەردەستە</string>
+
+    <string name="user">تۆ تەنها بەکارهێنەری</string>
+
+    <string name="openFaceBook">کردنەوەی فیسبوک</string>
+    <string name="Delete">ڕەشکردنەوە</string>
+    <string name="Choose">فەرمانیک هەڵبژیرە</string>
+    <string name="updateSec">نوێ کردنەوەکە سەرکەوتوبوو!!!</string>
+    <string name="Warning">ئاگاداربە!!</string>
+    <string name="deletePlace">ئایا دلنیای دەتەوی ڕەشیبکەیەوە؟</string>
+    <string name="deleteSec">ڕشکردنەوەکە سەرکەوتوبوو</string>
+    <string name="OK">باشە</string>
+    <string name="cancel">گەراندنەوە</string>
+    <string name="map">نەخشە</string>
+
+    <!-- Liste Resturant-->
+    <string name="ABC">آی بی سی</string>
+    <string name="salehia">سالیحە</string>
+    <string name="janna">جنە</string>
+    <string name="flla">فوولە</string>
+    <string name="ayam">ایام خلی</string>
+    <string name="PregoRestaurant">پریگۆ</string>
+    <string name="rabwah">ڕبوە</string>
+    <string name="tosty">تۆستی</string>
+    <string name="hiland">های لند</string>
+    <string name="kababyasin">کەباب یاسین</string>
+    <string name="iceland">اس لند</string>
+
+    <string-array name="addresResturant">
+        <item>هەولێر-بەحرکە</item>
+        <item>فلکەی زاعە گەرەکی رووناکی</item>
+        <item>هەولێ-شەقامی 100م</item>
+        <item>هەولێر-شەقامی شۆرش</item>
+        <item>هەولێر-100م</item>
+        <item>هەولیر جووت سایدی عەنکاوە</item>
+        <item>هەولێر_100م</item>
+        <item>هەولێر_100م</item>
+        <item>هەولێر کەسنەزان</item>
+        <item>هەلێر 100م نزیک بەحرکە</item>
+        <item>هەولێر_100م</item>
+    </string-array>
+
+    <!--List Hotel-->
+    <string-array name="arrayHotel">
+        <item>کریستال</item>
+        <item>ماریانە</item>
+        <item>ڕۆتامە</item>
+        <item>دیڤان</item>
+        <item>گراندپلەس</item>
+        <item>جۆهاینە</item>
+        <item>لاڕۆج</item>
+        <item>پلازا</item>
+    </string-array>
+    <string-array name="addresHotel">
+        <item>هەەلێر-١٠٠م</item>
+        <item>هەەلێر-شەقامی کەلان-بەرامبار پارکی سامی عبدللرحمان</item>
+        <item>هەەلێر-شەقامی کەلان</item>
+        <item>هەەلێر-شەقامی کەلان</item>
+        <item>هەەلێر-شەقامی قازی محمد-سەرڕێگای حنکاوە</item>
+        <item>هەەلێر-شەقامی قازی محمد</item>
+        <item>هەەلێر-ڕێگای عنکاوە-نزیک کۆمپانیای کۆرەک</item>
+        <item>هەەلێر-شەقامی ٦٠م-نزیک مزگەوتی جەلیل خیات</item>
+    </string-array>
+
+    <string-array name="arrayShop">
+        <item>ڕۆیال مۆل</item>
+        <item>میگا مۆل</item>
+        <item>فاملی مۆل</item>
+        <item>تابلۆ مۆل</item>
+        <item>ماجدی مۆل</item>
+    </string-array>
+
+    <string-array name="AddressShop">
+        <item>هەولێر ٦۰م بەرامبەر مزگەوتی جەلیل خەیاط </item>
+        <item>هەولێر شەقامی 60م</item>
+        <item>هەولێر شەقامی 100م نزیک پیشە سازی باشوور</item>
+        <item>شەقامی کەرکوک نزیک یاریگای شەهید فەرنسۆ هەریری</item>
+        <item>هەولێر شەقامی کەسنەزان</item>
+        <item>هەولێر شەقامی کەسنەزان</item>
+    </string-array>
+
+    <string-array name="tourism">
+        <item>فامیلی فان</item>
+        <item>قەلای هەولێر</item>
+        <item>ماجدیلاند</item>
+        <item>منارە</item>
+        <item>پارکی منارە</item>
+        <item>پارکی شانەدەر</item>
+        <item>پارکی سامی عبدللرحمان</item>
+    </string-array>
+
+    <string-array name="addresstourism">
+        <item>هەولێر-100م</item>
+        <item>سەنتەری شاری هەولێر</item>
+        <item>هەولێر -کەسنەزان</item>
+        <item>هەولێر - شەقامی بارزانی نەمر</item>
+        <item>هەولێر - شەقامی بارزانی نەمر</item>
+        <item>هەولێر - شەقامی شانەدەر</item>
+        <item>هەولێر - شەقامی ٦٠م</item>
+    </string-array>
+
+    <string name="about">
+         ئێمە قوتابین لە زانكۆى سلاحەدين لە كۆلێژى ئەندازيارى بەشی پرۆگرامسازی
+        ئێمە ئەم بەرنامەیەمان دروستکردوە بۆ گەشتیارانی ناوەوە يان لەدەرەوە كوردستان
+        ئەم بەرنامەیە پشگیری سێ زمان دەکات
+وە ميوانخانە و چێشتخانە و شوێنی گەشتیاری و فرۆشگاکانی كوردستانی تێدایە
+    </string>
+
+    <string name="ziad"> ١ - زیاد أسحد</string>
+    <string name="saad">٢ - سعد مسعود</string>
+    <string name="yunis"> ٣ - یونس محمد</string>
+    <string name="amen">٤ - امین زیاد</string>
+    <string name="umer"> ٥ - عومەر شێرۆ</string>
+    <string name="students">ئەندازیارەکان</string>
+    <string name="contact">پەیوەندیمان پێەوەبکەن</string>
+
+    <string name="storyerbil">
+        مێژووی هەولێر
+    </string>
+
+
+    <string name="castlstory">
+       قه لای هەولێر تەپولکه یه کی بازنایی رووتەخته به رووبەری ۱۰۲٫۱۹۰ مه تری چوارگۆشه له ناوەراستی شاری هەولێر، که له کۆنه وه ناوەندى شارى هەولێر بووه.
+        415 م له ئاستی رووی دەریا بەرزه و بە بەرەنجامی۲۹م و ۲۰ سم له ئاستی رووی شاری هه ولير بەزره ئەم قەلایه دیرینه له سالی ۲۰۰۰
+        له لايه ن ریکخراوی يونسكۆوه به یه کیک له گرنگترین 100 شوینەواری جیهان دەستنیشانکراوه که پیویسته وەک کەلتووریکی مروڤایەتی پاریزگاری لیوہ بکریت
+    </string>
+
+    <string name="storymnara">
+      منارەی موزه فه رییه یه کیکه له مناره کان ، ده که ویته پارکی منارە له له رؤژئاوای هه ولير له هه ریمی کوردستان
+        مناره که ۳۹ مه تر یان(۱۱۸ پێ) بەرزه. ئه م مناره یه له (۱۱۹۰- ۱۲۳۲)ز یان ( ۹۳۰ - ۵۸۹)هی له لايه ن شازادی توركمانی هه ولير (موزەفەرەدین ئەبوسەعید ئەلكاوكابوری)
+         .لەلایان سه لاحه دين درووستكراوه هه روه ها ئه م مناره یه له سه ر ناوچه یه کی هه شت لاو ئه ستونیکی شیوه سندوقی به رز ددروستکراوه که بالكونيک له نیوان بناغه که و مناره که هه یه
+    </string>
+
+</resources>

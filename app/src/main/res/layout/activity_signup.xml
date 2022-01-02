@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@drawable/back"
+    android:id="@+id/signupback"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="118dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="136dp"
+                    android:layout_marginLeft="136dp"
+                    android:layout_marginBottom="52dp"
+                    android:text="@string/signup"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="?attr/textcolor"
+                    android:textSize="30dp"
+                    app:layout_constraintBottom_toTopOf="@+id/username"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="43dp"
+                    tools:layout_conversion_absoluteWidth="121dp" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="233dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="28dp"
+                    android:backgroundTint="?attr/textcolor"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:hint="@string/userName"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="?attr/textcolor"
+                    app:layout_constraintBottom_toTopOf="@+id/email"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.543"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="53dp"
+                    tools:layout_conversion_absoluteWidth="248dp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="233dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="32dp"
+                    android:backgroundTint="?attr/textcolor"
+                    android:drawableStart="@drawable/ic_email_black_24dp"
+                    android:hint="@string/email"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="?attr/textcolor"
+                    app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.556"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="53dp"
+                    tools:layout_conversion_absoluteWidth="248dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout2"
+                    android:layout_width="230dp"
+                    android:layout_height="66dp"
+                    android:layout_marginBottom="48dp"
+                    android:textColorHint="?attr/textcolor"
+                    app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.552"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="?attr/textcolor"
+                    tools:layout_conversion_absoluteHeight="64dp"
+                    tools:layout_conversion_absoluteWidth="248dp">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="?attr/textcolor"
+                        android:drawableStart="@drawable/ic_lock_black_24dp"
+                        android:hint="@string/passowrd"
+                        android:inputType="textPassword"
+                        android:textColor="?attr/textcolor"
+                        android:textColorHint="?attr/textcolor"
+                        app:layout_constraintTop_toBottomOf="@+id/email"
+                        tools:layout_conversion_absoluteHeight="53dp"
+                        tools:layout_conversion_absoluteWidth="248dp"
+                        tools:layout_editor_absoluteX="90dp"
+                        tools:layout_editor_absoluteY="364dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout"
+                    android:layout_width="232dp"
+                    android:layout_height="61dp"
+                    android:layout_marginBottom="70dp"
+                    android:textColorHint="?attr/textcolor"
+                    app:layout_constraintBottom_toTopOf="@+id/sign"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.559"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="?attr/textcolor"
+                    tools:layout_conversion_absoluteHeight="64dp"
+                    tools:layout_conversion_absoluteWidth="248dp">
+
+                    <EditText
+                        android:id="@+id/cpassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="?attr/textcolor"
+                        android:drawableStart="@drawable/ic_lock_black_24dp"
+                        android:hint="@string/Cpassowrd"
+                        android:inputType="textPassword"
+                        android:textColor="?attr/textcolor"
+                        android:textColorHint="?attr/textcolor"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/password"
+                        tools:layout_conversion_absoluteHeight="53dp"
+                        tools:layout_conversion_absoluteWidth="248dp"
+                        tools:layout_editor_absoluteX="90dp"
+                        tools:layout_editor_absoluteY="449dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/error2"
+                    android:layout_width="276dp"
+                    android:layout_height="23dp"
+                    android:layout_marginBottom="180dp"
+                    android:textAlignment="center"
+                    android:textColor="#ff0000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="31dp"
+                    tools:layout_conversion_absoluteWidth="247dp" />
+
+                <Button
+                    android:id="@+id/sign"
+                    android:layout_width="148dp"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="102dp"
+                    android:background="@drawable/btn_place"
+                    android:text="@string/signup"
+                    android:textColorHint="?attr/textcolor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.555"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="38dp"
+                    tools:layout_conversion_absoluteWidth="143dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="?attr/textcolor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="25dp"
+                    tools:layout_conversion_absoluteWidth="210dp"
+                    tools:layout_editor_absoluteX="90dp"
+                    tools:layout_editor_absoluteY="651dp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

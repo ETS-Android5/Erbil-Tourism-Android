@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    >
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:drawableTop="@drawable/hotel"
+          android:textColor="#0000ff"
+          android:text="@string/Hotel"
+          android:id="@+id/hotel"
+          />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:drawableTop="@drawable/restorants"
+           android:textColor="#0000ff"
+           android:text="@string/restaurants"
+           android:id="@+id/resturant"
+           />
+
+       <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:drawableTop="@drawable/tourism"
+       android:textColor="#0000ff"
+       android:text="@string/placetourist"
+       android:id="@+id/touresm" />
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:drawableTop="@drawable/shoping"
+           android:textColor="#0000ff"
+           android:text="@string/shop"
+           android:id="@+id/shop"
+           />
+   </LinearLayout>
+
+
+</ScrollView>

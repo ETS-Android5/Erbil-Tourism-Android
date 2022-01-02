@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home">الصفحة الرئيسية</string>
+    <string name="setting">ضبط</string>
+    <string name="About">حول</string>
+    <string name="English">الإنجليزية</string>
+    <string name="Kurdish">الكردي</string>
+    <string name="Arabic">العربى</string>
+    <string name="app_name">السياحة اربیل</string>
+    <string name="listhotel">قائمة الفندق</string>
+    <string name="listresturant">قائمة المطعم</string>
+    <string name="listShop">قائمة مول</string>
+    <string name="listTourisem">قائمة السياحة</string>
+    <string name="listPlace">مكان</string>
+    <string name="welcom">مرحبًا بكم في أربيل-كردستان</string>
+    <string name="restaurants">المطعم</string>
+    <string name="Hotel">لفندق</string>
+    <string name="placetourist">السياحة الفضائية</string>
+    <string name="shop">متجر</string>
+    <string name="AddIteam">اضافة عنصر</string>
+    <string name="addHotel">أضف فندق</string>
+    <string name="addResturant">أضف مطعم</string>
+    <string name="addTourism">أضف السياحة</string>
+    <string name="addShop">إضافة متجر</string>
+    <string name="addimage">صورة</string>
+    <string name="prifile">المحلومات الشخصي</string>
+
+    <string name="location">موقعك</string>
+    <string name="Nameofolace">اسم المكان</string>
+    <string name="name">اسم</string>
+    <string name="address">عنوان</string>
+    <string name="update">تحديث</string>
+
+    <string name="aboutUS">تعرف عنا</string>
+    <string name="aboutERBIL">تعرف عن اربيل</string>
+    <string name="aboutvideo">تعرف عن اربيل بالفيديو</string>
+    <string name="btnerbil">معلومات أربيل</string>
+    <string name="btnus">معلومات عنا</string>
+    <string name="btnvideo">فيديو</string>
+
+    <string name="signup">سجل</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="passowrd">كلمه السر</string>
+    <string name="Cpassowrd">تأكيد كلمة المرور</string>
+    <string name="Accounterror">هذا الحساب غير متوفر</string>
+    <string name="passerror">كلمة سر خاطئة</string>
+
+    <string name="added">اضيف بنجاح!</string>
+    <string name="notadded">لم تتم الإضافة بنجاح!</string>
+    <string name="exist">هذا الحساب موجود</string>
+
+    <string name="user">انت مستخدم</string>
+
+    <string name="changepass">تغيير كلمة السر</string>
+    <string name="lang">اختار اللغة</string>
+    <string name="apply"> تطبيق </string>
+    <string name="oldpass">كلمة المرور القديمة</string>
+    <string name="newPass">كلمة مرور جديدة </string>
+    <string name="save">حفظ</string>
+
+    <string name="userlength">طول اسم المستخدم أقل من 4 أحرف</string>
+    <string name="passlength">كلمة المرور بطول أقل من 6 أحرف</string>
+    <string name="empty">حقل واحد فارغ</string>
+    <string name="openFaceBook">افتح فيسبوك</string>
+    <string name="Delete">حذف</string>
+    <string name="Choose">اختيار إجراء!!</string>
+    <string name="updateSec">تم التحديث بنجاح !!!</string>
+    <string name="Warning">تحذير!!</string>
+    <string name="deletePlace">هل أنت متأكد أنك تريد هذا الحذف؟</string>
+    <string name="deleteSec">حذف بنجاح !!!</string>
+    <string name="OK">حسنا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="map">خريطة</string>
+
+
+    <!-- Liste Resturant-->
+    <string name="salehia">الصالحية</string>
+    <string name="ABC">ABC</string>
+    <string name="janna">الجنة</string>
+    <string name="flla">فلة</string>
+    <string name="ayam">أيام الخوالي</string>
+    <string name="PregoRestaurant">مطعم بريجو</string>
+    <string name="rabwah">الربوة</string>
+    <string name="tosty">تۆستی</string>
+    <string name="hiland">های لند</string>
+    <string name="kababyasin">كباب ياسين</string>
+    <string name="iceland">أيسلندا</string>
+
+    <string-array name="addresResturant">
+        <item>طريق أربيل-بحركة</item>
+        <item>اربيل-شارع رونكي</item>
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>شارع أربيل - شورش</item>
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>طريق أربيل عنكاوا</item>
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>أربيل - كسنازان</item>
+        <item>طريق أربيل ١٠٠ م - بالقرب من بحركة</item>
+        <item>طريق أربيل ١٠٠ م</item>
+    </string-array>
+
+    <!--List Hotel-->
+    <string-array name="arrayHotel">
+        <item>كريستال</item>
+        <item>ماريانا</item>
+        <item>روتانا</item>
+        <item>دیڤان</item>
+        <item>کراندپلەس</item>
+        <item>جهينة</item>
+        <item>لاروج</item>
+        <item>بلازا</item>
+    </string-array>
+
+    <string-array name="addresHotel">
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>ربيل - شارع غولان - خلف منتزه سامي عبد الرحمن</item>
+        <item>شارع أربيل جولان</item>
+        <item>شارع أربيل جولان</item>
+        <item>مدخل أربيل-عنكاوة الرئيسي</item>
+        <item> شارع أربيل قاضي محمد</item>
+        <item>أربيل-عنكاوا المدخل الرئيسي- قرب شركة كورك</item>
+        <item>أربيل - طريق ٦٠ م - بالقرب من مسجد جليل خیاط</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="arrayShop">
+        <item>رويال مول</item>
+        <item>ميجا مول</item>
+        <item>فاميلي مول</item>
+        <item>تابلو مول</item>
+        <item>مجيدي مول</item>
+    </string-array>
+
+    <string-array name="AddressShop">
+        <item>أربيل - شارع ٦٠ م - مقابل جليل خیاط</item>
+        <item>طريق أربيل ٦٠ م</item>
+        <item>طريق أربيل ١٠٠ م</item>
+        <item>أربيل - طريق كركوك - قرب ملعب فارانسو هریری</item>
+        <item>أربيل - كسنازان</item>
+    </string-array>
+
+    <string-array name="tourism">
+        <item>فامیلی فان</item>
+        <item>ققلعة اربيل</item>
+        <item>ماجدیلاند</item>
+        <item>منارة</item>
+        <item>حديقة منارة</item>
+        <item>حديقة شانەدەر</item>
+        <item>حديقة سامی عبدللرحمان</item>
+    </string-array>
+
+    <string-array name="addresstourism">
+        <item>أربيل - شارع ١٠٠</item>
+        <item>مركز أربيل</item>
+        <item>أربيل - طريق قسنزن</item>
+        <item> أربيل- شارع رزانيمر</item>
+        <item> أربيل- شارع رزانيمر</item>
+        <item>أربيل - شارع شنادار</item>
+        <item>أربيل - طريق ٦٠ م</item>
+    </string-array>
+
+    <string name="about">
+    نحن طلاب في جامعة صلاح الدين في كلية الهندسة قسم البرمجيات والمعلوماتية.
+        لقد أنشأنا هذا البرنامج للسياح داخل كردستان أو خارجها
+        يدعم البرنامج ثلاث لغات
+ويضم الفنادق والمطاعم والمعالم السياحية والمحلات التجارية في كردستان
+    </string>
+
+    <string name="ziad"> ١ - زیاد آسعد</string>
+    <string name="saad">٢ - سحد مسعود</string>
+    <string name="yunis"> ٣ - یونس</string>
+    <string name="amen">٤ - امین زیاد</string>
+    <string name="umer"> ٥ - عومەر ‌شەقلاوە</string>
+    <string name="students">الطلاب</string>
+    <string name="contact">اتصل بنا</string>
+
+    <string name="storyerbil">
+        تاريخ اربيل
+    </string>
+
+    <string name="castlstory">
+      حصن أربيل هو جسر دائري دائري بمساحة 102190 متر مربع في وسط مدينة أربيل ، والتي كانت مركز مدينة أربيل منذ العصور القديمة.
+        415 م أعلى من مستوى سطح البحر ونتيجة ارتفاع 2 و 3 سم عن مستوى سطح مدينة أربيل والقلعة القديمة تم تعيينها من قبل اليونسكو في عام 2000 كواحدة من العالم
+        أهم 100 موقع يجب اعتباره تراثًا ثقافيًا لللاويين.
+    </string>
+
+    <string name="storymnara">
+        متحف المئذنة هو أحد المآذن الواقعة في منتزه المئذنة
+        في غرب هاولير في إقليم كردستان ، يبلغ ارتفاع البرج 3 أمتار
+        يرجع تاريخ هذه المئذنة إلى (1190-1232) م. (930 - 589) من قبل الأمير التركماني هولر (متحف فرح)
+        39 مترا (118 قدما). تعود هذه المئذنة إلى (1190-1232 م) بناها صلاح الدين وتقع على مساحة ثمانية أفدنة (الدين ليس عيد الأضحى).
+        في المنطقة الإستونية ، تم بناء صندوق شاهق مع شرفة بين المبنى والبرج.
+    </string>
+
+</resources>
